@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e7f652fba58df653",
+        "id": "3f41c0b2c17edbe1",
         "type": "tabs",
         "children": [
           {
-            "id": "df03b4784a127efc",
+            "id": "5eb8585069b28ab6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "labs/2026-02-16.md",
+                "file": "labs/Lab1/2026-02-16.md",
                 "mode": "source",
                 "source": false
               },
@@ -183,10 +183,15 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "9f957bb1bfd3461c",
+  "active": "5eb8585069b28ab6",
   "lastOpenFiles": [
+    "labs/Lab1/Без названия 2.md",
+    "labs/Lab1/2026-02-16.md",
+    "labs/Lab1/Architecture.bmp",
+    "labs/Lab1",
+    "labs/Новый точечный рисунок.bmp",
+    "Final project architecture.canvas",
     "Без названия.md",
-    "labs/2026-02-16.md",
     "Добро пожаловать.md",
     "labs"
   ]
