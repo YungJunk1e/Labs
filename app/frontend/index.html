@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevOps Demo</title>
+</head>
+<body>
+    <h1>DevOps Test App</h1>
+
+    <h2>Add Item</h2>
+    <input type="text" id="itemName" />
+    <button onclick="addItem()">Add</button>
+
+    <h2>Items</h2>
+    <button onclick="loadItems()">Refresh</button>
+    <ul id="itemsList"></ul>
+
+    <script>
+        const API_URL = "http://localhost:8000";
+
+        async function addItem() {
+            const name = document.getElementById("itemName").value;
+            await fetch(`${API_URL}/items?name=${name}`, {
+                method: "POST"
+            });
+            loadItems();
+        }
+
+        async function loadItems() {
+            const res = await fetch(`${API_URL}/items`);
+            const items = await res.json();
+            const list = document.getElementById("itemsList");
+            list.innerHTML = "";
+            items.forEach(item => {
+                const li = document.createElement("li");
+                li.innerText = item.name;
+                list.appendChild(li);
+            });
+        }
+    </script>
+</body>
+</html>
