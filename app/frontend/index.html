@@ -15,8 +15,9 @@
     <ul id="itemsList"></ul>
 
     <script>
-        const API_URL = "http://192.168.1.102:8000";
+        const API_URL = "/api";
 
+        window.onload = loadItems;
         async function addItem() {
             const name = document.getElementById("itemName").value;
             await fetch(`${API_URL}/items?name=${name}`, {
