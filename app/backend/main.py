@@ -16,7 +16,7 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
 APP_VERSION = os.getenv("APP_VERSION", "unknown")
-
+APP_URL = os.getenv("APP_URL", "unknown")
 
 def get_db():
     db = SessionLocal()
@@ -26,7 +26,7 @@ def get_db():
         db.close()
 
 
-@app.get("/")
+@app.get("/default")
 def root():
     return {"message": "DevOps test app running"}
 
@@ -61,11 +61,11 @@ def simulate_load(delay: int = 2):
     return {"message": f"Simulated {delay}s delay"}
 
 
-# 👇 ВАЖНО: точка входа
+
 if __name__ == "__main__":
     uvicorn.run(
         "main:app",
-        host="0.0.0.0",
+        host=APP_URL,
         port=8000,
         reload=False
     )
