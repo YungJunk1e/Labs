@@ -2,6 +2,7 @@ import os
 import time
 import uvicorn
 from fastapi import FastAPI, Depends
+from fastapi.responses import RedirectResponse
 from sqlalchemy.orm import Session
 from dotenv import load_dotenv
 
@@ -26,9 +27,9 @@ def get_db():
         db.close()
 
 
-@app.get("/default")
+@app.get("/")
 def root():
-    return {"message": "DevOps test app running"}
+    return RedirectResponse(url="/docs", status_code=307)
 
 
 @app.get("/health")
@@ -67,5 +68,5 @@ if __name__ == "__main__":
         "main:app",
         host=APP_URL,
         port=8000,
-        reload=False
+        reload=True
     )
