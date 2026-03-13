@@ -1,2 +1,3 @@
 # Labs
-DevOps labs cycle
+DevOps labs cycle  
+Данный цикл работ создан для изучения и тестовой реализации DevOps практик в рамках homelab проекта.  
