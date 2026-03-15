@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6bb58a7b8e05ab17",
+        "id": "3afd068218ea4b1d",
         "type": "tabs",
         "children": [
           {
-            "id": "3b772c72e114caab",
+            "id": "444f8adb637f5632",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "labs/Lab4/2026-03-13.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "2026-03-13"
             }
           }
         ]
@@ -179,10 +183,13 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "9f957bb1bfd3461c",
+  "active": "444f8adb637f5632",
   "lastOpenFiles": [
-    "labs/Lab3/2026-03-13.md",
+    "labs/Lab4/dockerfile.png",
     "labs/Lab4/2026-03-13.md",
+    "labs/Lab4/docker2.png",
+    "labs/Lab4/docker1.png",
+    "labs/Lab3/2026-03-13.md",
     "labs/Lab4",
     "labs/Lab3/nginx_conf.png",
     "labs/Lab1/2026-02-16.md",
@@ -199,7 +206,6 @@
     "labs/Lab1",
     "labs/Lab1/Без названия 2.md",
     "labs/Lab0",
-    "labs/Новый точечный рисунок.bmp",
     "Final project architecture.canvas",
     "Без названия.md",
     "Добро пожаловать.md",
