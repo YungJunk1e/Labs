@@ -10,4 +10,4 @@ services:
     network_mode: "host"
     volumes:
       - ./app/frontend/html:/var/www/html
-      - ./app/frontend/nginx:/etc/nginx/sites-available
+      - ./app/frontend/nginx:/etc/nginx
