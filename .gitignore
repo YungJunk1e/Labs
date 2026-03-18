@@ -1,3 +1,5 @@
 /Labs/.trash
+/Labs/.obsidian
+/.venv
 /app/backend/.env
 /app/backend/__pycache__

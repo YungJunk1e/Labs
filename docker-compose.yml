@@ -9,5 +9,5 @@ services:
       - 80:80
     network_mode: "host"
     volumes:
-      - ./frontend/html:/var/www/html
-      - ./frontend/nginx:/etc/nginx/sites-available
+      - ./app/frontend/html:/var/www/html
+      - ./app/frontend/nginx:/etc/nginx/sites-available
