@@ -1,0 +1,10 @@
+services:
+  backend:
+    build: ./app/backend
+    container_name: pyback
+    network_mode: "host"
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./frontend:/var/www/html
+    
