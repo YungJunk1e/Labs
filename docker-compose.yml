@@ -6,5 +6,5 @@ services:
   nginx:
     image: nginx:latest
     volumes:
-      - ./frontend:/var/www/html
-    
+      - ./frontend/html:/var/www/html/index.html
+      - ./frontend/nginx:/etc/nginx/sites-available/default
