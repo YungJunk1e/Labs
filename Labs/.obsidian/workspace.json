@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ff5fe0284153278b",
+        "id": "5855bc8bc2ca02b6",
         "type": "tabs",
         "children": [
           {
-            "id": "36909aa4b9e89c44",
+            "id": "a8104d558180f256",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "labs/Lab5/2026-03-20.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "2026-03-20"
             }
           }
         ]
@@ -181,31 +185,34 @@
   },
   "active": "9f957bb1bfd3461c",
   "lastOpenFiles": [
-    "labs/Lab5",
-    "labs/Lab4/2026-03-13.md",
-    "labs/Lab4/docker-reg4.png",
-    "labs/Lab4/docker-reg3.png",
-    "labs/Lab4/docker-reg2.png",
-    "labs/Lab4/docker-reg.png",
-    "labs/Lab0/2026-02-16.md",
-    "labs/Lab1/2026-02-16.md",
+    "labs/Lab5/grafana1.png",
+    "labs/Lab5/grafana1.png",
+    "labs/Lab5/grafana.png",
+    "labs/Lab5/prometheus1.png",
+    "labs/Lab5/2026-03-20.md",
+    "Pasted image 20260320184411.png",
+    "labs/Lab5/prometheus.png",
+    "labs/Lab5/node-exporter3.png",
+    "labs/Lab5/node-exporter1.png",
+    "labs/Lab5/node-exporter1.png",
+    "Pasted.md",
+    "labs/Lab5/node-exporter.png",
+    "labs/Lab5/node-exporter.png",
+    "extra/README.md",
+    "extra",
     "labs/Lab2/2026-03-13.md",
     "labs/Lab3/2026-03-13.md",
-    "labs/Lab3/nginx_conf.png",
-    "labs/Lab4/docker-compose2.png",
-    "labs/Lab4/docker-compose.png",
-    "labs/Lab4/dock-back.png",
-    "labs/Lab4/dockerfile.png",
-    "labs/Lab4/docker2.png",
+    "labs/Lab4/2026-03-13.md",
+    "labs/Lab5",
+    "labs/Lab0/2026-02-16.md",
+    "labs/Lab1/2026-02-16.md",
     "labs/Lab4",
     "labs/Lab3",
     "labs/Lab2",
-    "Pasted.md",
     "labs/Lab1",
     "labs/Lab1/Без названия 2.md",
     "labs/Lab0",
     "Final project architecture.canvas",
-    "Без названия.md",
     "Добро пожаловать.md",
     "labs"
   ]
