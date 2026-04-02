@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "labs/Lab6/2026-03-22.md",
+                "file": "labs/Lab7/2026-03-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-22"
+              "title": "2026-03-27"
             }
           }
         ]
@@ -183,29 +183,30 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "9f957bb1bfd3461c",
+  "active": "9bba4db0b9283252",
   "lastOpenFiles": [
-    "labs/Lab6/pipeline1.png",
-    "labs/Lab6/pipeline.png",
-    "labs/Lab6/test.png",
-    "labs/Lab6/gitlab4.png",
-    "labs/Lab6/gitlab3.png",
-    "labs/Lab6/2026-03-22.md",
-    "labs/Lab6/gitalb2.png",
-    "labs/Lab6/gitlab1.png",
-    "labs/Lab1/2026-02-16.md",
-    "labs/Lab2/2026-03-13.md",
-    "labs/Lab6/vbox1.png",
-    "labs/Lab6/vbox.png",
-    "labs/Lab6/gitlab.png",
+    "labs/Lab7/playbook2.png",
+    "labs/Lab7/playbook3.png",
+    "labs/Lab7/2026-03-27.md",
+    "labs/Lab7/playbook1.png",
+    "labs/Lab7/playbook.png",
+    "Pasted image 20260331160051.png",
+    "Pasted image 20260331155959.png",
     "labs/Lab5/2026-03-20.md",
+    "labs/Lab4/2026-03-13.md",
+    "labs/Lab3/2026-03-13.md",
+    "labs/Lab2/2026-03-13.md",
+    "labs/Lab1/2026-02-16.md",
+    "labs/Lab7/cfg.png",
+    "labs/Lab7/inventory.png",
+    "labs/Lab7/ansible-result.png",
+    "labs/Lab7/ansible1.png",
+    "labs/Lab6/2026-03-22.md",
+    "labs/Lab7",
     "labs/Lab6",
-    "labs/Lab5/grafana1.png",
     "Pasted.md",
     "extra/README.md",
     "extra",
-    "labs/Lab3/2026-03-13.md",
-    "labs/Lab4/2026-03-13.md",
     "labs/Lab5",
     "labs/Lab0/2026-02-16.md",
     "labs/Lab4",
